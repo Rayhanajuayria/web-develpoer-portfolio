@@ -47,9 +47,12 @@ nav a {
 /* header related styles*/
 .header{
     background-color: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
@@ -58,4 +61,31 @@ nav a {
 }
 .banner .profile-picture {
     width: 400px;
+}
+.banner-greeting {
+    font-size: 45px;
+    color:#FD6E0A;
+    margin-bottom: opx;
+}
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.banner-discription {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.about-section {
+    background-color:#fff8f3;
+}
+.about-me {
+    font-size: 20px;
+
+}
+.about{
+    width: 50%;
+    margin: auto;
 }
